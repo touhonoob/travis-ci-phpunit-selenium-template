@@ -8,6 +8,3 @@ before_script:
   - ./tests/setup/selenium.sh
 
 script: phpunit --verbose -c tests/phpunit.xml
-notifications:
-  email:
-    - maxtobiasweber@gmail.com
